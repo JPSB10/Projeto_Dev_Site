@@ -1,10 +1,17 @@
 #Topo{
-    background-color: rgb(24, 130, 201);
+    background-color:  rgb(24, 130, 201);
     height: 10vh;
     width: 95%;
     margin-top: 2vh;
     margin-left: 2vh;
     padding: 2vh;
+}
+
+#Topo img{
+    height: 20vh;
+    width: 30vh;
+    margin-top: -5vh;
+    margin-left: 42%;
 }
 /* nav ul li{
     float: left;
@@ -135,7 +142,7 @@ nav ul li a:hover{
 .rodape{
     width: 94.2%;
     height: 5vh;
-    background-color: rgb(24, 130, 201);
+    background-color:rgb(24, 130, 201);
     margin-left: 2vh;
     padding: 2vh;
     position: absolute;
@@ -160,6 +167,12 @@ nav ul li a:hover{
     margin-top: 0vh;
     margin-left: 130vh;
 }
+
+#Teste{
+    margin-top: 20vh;
+}
+
+
 
 /* .Titulo{
     background-color: rgb(0, 153, 255);
