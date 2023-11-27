@@ -7,6 +7,7 @@ var RotasApp = angular.module("RotasApp",["ngRoute"])
         })
         .when("/lugares", {
             templateUrl : "./templates/lugares.html",
+            // controller: "lugares"
         })
         .when("/experiencias", {
             templateUrl:"./templates/experiencias.html",
@@ -16,3 +17,20 @@ var RotasApp = angular.module("RotasApp",["ngRoute"])
         })
     });
 
+    ////
+RotasApp.controller(lugares,function($scope,$http,$route){
+    $scope.ArtigoFinal = ""
+
+    var ArtigoFinal = $http.get("./dados/Livros.json")
+    .then(function(respone){
+        respone.data.forEach(Livros =>{
+            $scope.ArtigoFinal += Livros
+        })
+
+
+    })
+
+
+
+
+})

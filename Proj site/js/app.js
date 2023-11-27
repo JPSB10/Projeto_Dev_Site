@@ -18,10 +18,7 @@ Lugares.forEach(element =>{
     <div>`+element["Curiosidades"]+`</div>
     </div>
      `
-   
 });
-//document.getElementById("ApiRead").innerHTML += json ["Tecnologias"] ["Linguagens"][1]["C#"]
-//document.getElementById("ApiRead").innerHTML += json ["Tecnologias"] ["Linguagens"][1]
 }
 )
 
