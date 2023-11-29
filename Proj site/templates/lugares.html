@@ -1,7 +1,12 @@
 
-    <div id="ApiRead"></div>
+    <div id="ApiRead">
 
 <div ng-repeat= " x in ArtigoFinal">
-    <div>{{x.Titulo}}</div>
-
+    <div class='livro'>
+        <div><h1>{{x.Titulo}}</h1></div>
+        <div>{{x.Descr}}</div>
+        <div><p>{{x.Curiosidades}}</p></div>
+        <img src="{{x.img}}">
+    </div> 
 </div>
+    </div>

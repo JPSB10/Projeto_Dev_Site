@@ -5,6 +5,7 @@
     margin-top: 2vh;
     margin-left: 2vh;
     padding: 2vh;
+    border-radius: 1vh 1vh 0vh 0vh;
 }
 
 #Topo img{
@@ -13,22 +14,6 @@
     margin-top: -5vh;
     margin-left: 42%;
 }
-/* nav ul li{
-    float: left;
-    margin-left: 10vh;
-    list-style: none;
-    margin-top: -1vh;
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-nav ul li a:hover{
-    text-decoration: none;
-    color:white;
-} */
 
 #wallpaper{
     height: 80vh;
@@ -76,6 +61,7 @@ nav ul li a:hover{
     padding: 2vh;
     position: absolute;
     float: left;
+    border-radius: 0vh 0vh 1vh 1vh;
 }
 
 .rodape ul{
@@ -97,23 +83,24 @@ nav ul li a:hover{
     margin-left: 130vh;
 }
 
-#Teste{
-    margin-top: 20vh;
-}
-
 #ApiRead{
-    background-image: url(../img/vale\ da\ esmeralda.jpg);
+    background-image: url(../img/valedaesmeralda.jpg);
+    align-items: center;
+    width: 97.1%;
+    margin-left: 2vh;
     background-repeat: no-repeat;
     background-position: 20% 40%;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
     
 }
 .livro{
     background-color: rgba(32, 32, 58, 0.253);
     opacity:10vh;
     padding: 5vh;
-    margin-left:50vh;
     width: 50vh;
     border-radius: 1vh;
     color: azure;
@@ -121,15 +108,20 @@ nav ul li a:hover{
     font-family:sans-serif;
     border-radius: 0.7vh;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 .livro img {
-    margin-left: 6vh;
-    margin-top:3vh;
+    width: 60%;
     height: 20vh;
-
+    border-radius: 1vh;
 }
 
 .livro h1{
     color: rgb(72, 174, 241);
 }
+
+/* #menu_aux{
+} */
