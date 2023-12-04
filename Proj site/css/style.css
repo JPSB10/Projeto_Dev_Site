@@ -136,3 +136,123 @@
 #menu_aux h1{
     margin-left: 3vh;
 }
+
+#image{
+    background: url('../img/Imagem_fundo.jpg');
+    align-items: center;
+    width: 97.1%;
+    height: 75vh;
+    margin-left: 2vh;
+    background-repeat: no-repeat;
+    background-position: 20% 40%;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+}
+
+.card_espaco{
+    background: rgb(34, 104, 195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(44,147,249,1) 39%, rgba(45,143,253,1) 100%);
+    box-shadow: 33px 10px 2px 5px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 33px 10px 2px 5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 33px 10px 2px 5px rgba(0,0,0,0.8);
+    margin-left: 50vh;
+    margin-top: -90vh; 
+    padding: 5vh;
+    height: 60vh;
+    width: 95vh;
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+}
+
+.card_espaco h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.card_espaco h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mini_screen{
+    z-index: 100;
+    background-color: rgb(72, 174, 241);
+    color: white;
+    height: 20vh;
+    width: 25%;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 67vh;
+    padding: 2vh;
+    border-radius: 2vh;
+    position: fixed;
+}
+
+.mini_screen h1{
+    text-align: center;
+}
+
+.mini_screen h3{
+    text-align: center;
+}
+
+.banner-xl{
+    background-color: rgb(231, 231, 231);
+    color: rgb(72, 174, 241);
+    width: 97.1%;
+    height: 75vh;
+    margin-left: 2vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+}
+.banner-xl h1{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    font-size: 5vh;
+}
+
+.banner-xl h3{  
+    margin-left: 5vh;
+    width: 60vh;
+}
+
+.articles{
+    margin-top:5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgplace-xl{
+    background-color: white;
+    height: 50vh;
+    width:90vh;
+    position: absolute;
+    margin-left: 80vh;
+    margin-top: 6.4vh;
+    background-image: url("../img/viagem_foto_incrivel.jpg");
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-size: cover;
+    background-position-y: -9vh;
+    border-radius: 9px 0px 0px 0px;
+    -webkit-border-radius: 9px 0px 0px 0px;
+    -moz-border-radius: 9px 0px 0px 0px;
+    border: 16px ridge #81bee1;
+    
+}
+
+.Artigo_sq{
+    background-image: url('../img/tropical.jpg');
+    background-size: cover;
+    margin-left: 10vh;
+}
+
+.banner-xl h1{
+font-family: 'Times New Roman', Times, serif;
+}
