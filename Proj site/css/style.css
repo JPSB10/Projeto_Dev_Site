@@ -178,7 +178,8 @@
     /* display: flex;
     flex-direction: column; */
     font-size: 2vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 
 }
 
